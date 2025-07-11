@@ -1,0 +1,13 @@
+@SerilogMaskingDemo_HostAddress = http://localhost:5073
+
+POST {{SerilogMaskingDemo_HostAddress}}/pay
+Content-Type: application/json
+Accept: application/json
+
+{
+  "email": "esraa@example.com",
+  "iban": "DE89370400440532013000",
+  "amount": 1000.4545
+}
+
+###

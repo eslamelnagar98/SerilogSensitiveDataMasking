@@ -1,0 +1,10 @@
+﻿global using SerilogMaskingDemo.Application.Interfaces;
+global using SerilogMaskingDemo.Domain.Enums;
+global using Serilog.Core;
+global using Serilog.Events;
+global using SerilogMaskingDemo.Domain.Models;
+global using Serilog;
+global using SerilogMaskingDemo.Infrastructure.Masking;
+global using SerilogMaskingDemo.Settings;
+global using System.Text.RegularExpressions;
+global using Serilog.Enrichers.Sensitive;
